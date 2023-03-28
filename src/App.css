@@ -38,7 +38,7 @@
   align-items: center;
   justify-content: end;
   color: hsl(212, 1%, 100%);
-  background-color: hsla(0,0%,13%,0.5);
+  background-color: hsla(0, 0%, 13%, 0.5);
 }
 
 .keyboard {
