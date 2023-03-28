@@ -1,11 +1,5 @@
 <a name="readme-top"></a>
 
-<div align="center">
-
-  <h3><b> Math Magician</b></h3>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -83,15 +77,6 @@ HTML, CSS, NodeJS v18, ReactJS
 - JSX.
 
 - Components.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- Comming soon...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
