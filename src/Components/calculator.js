@@ -67,3 +67,8 @@ function Calculator() {
 }
 
 export default Calculator;
+/* fetch('https://api.api-ninjas.com/v1/quotes?category=family')
+  .then((resp) => resp.json())
+  .then((apiData) => {
+    setData(apiData.message);
+  }); */
