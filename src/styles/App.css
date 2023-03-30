@@ -1,5 +1,4 @@
 * {
-  padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
@@ -29,6 +28,7 @@
 .container {
   justify-content: center;
   padding-top: 10em;
+  display: flex;
 }
 
 .screen {
