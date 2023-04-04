@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from '../styles/Quotes.module.css';
+import style from './Quote.module.css';
 
-const Quotes = () => (
-  <div className={styles.quote}>
+const Quote = () => (
+  <div className={style.contentContainer}>
     <ul>
       <li>
         Mathematics is the art of giving the same name to different things. -
@@ -25,4 +25,4 @@ const Quotes = () => (
   </div>
 );
 
-export default Quotes;
+export default Quote;
