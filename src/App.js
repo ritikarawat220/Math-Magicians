@@ -1,15 +1,26 @@
-import './styles/App.css';
-import './styles/Quotes.css';
-import Calculator from './Components/calculator';
-import Quotes from './Components/Quotes';
+import './App.css';
+import React from 'react';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from 'react-router-dom';
+import CalculatorPage from './pages/CalculatorPage';
+import Home from './pages/Home';
+import Navbar from './Components/Navbar';
+import Quote from './pages/Quote';
 
-function App() {
-  return (
+const App = () => (
+  <Router>
     <div className="container">
-      <Calculator />
-      <Quotes />
+      <Navbar />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        {/* <Route path="/calculator" element={<CalculatorPage />} /> */}
+        <Route path="/quote" element={<Quotes />} />
+      </Routes>
     </div>
-  );
-}
+  </Router>
+);
 
 export default App;

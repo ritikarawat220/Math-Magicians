@@ -1,24 +1,19 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import calculate from '../logic/calculate';
 
-function Calculator() {
-  const [state, setState] = useState({
+const Calculator = () => {
+  const [calcObj, setCalcObj] = useState({
     total: null,
     next: null,
     operation: null,
   });
 
   const handleClick = (btnName) => {
-    const newState = calculate(state, btnName);
-    setState({
-      total: newState.total,
-      next: newState.next,
-      operation: newState.operation,
-    });
+    const newState = calculate(calcObj, btnName);
+    setCalcObj(newState);
   };
 
-  const displayValues = () => {
-    const { total, next, operation } = state;
+  const displayValues = ({ total, next, operation }) => {
     if (total && !next && !operation) return `${total}`;
     if (!total && next && !operation) return `${next}`;
     if (total && !next && operation) return `${total} ${operation}`;
@@ -29,7 +24,7 @@ function Calculator() {
   return (
     <div className="calculator-body">
       <div className="screen">
-        { displayValues() }
+        { displayValues(calcObj) }
       </div>
       <div className="keyboard">
         <div className="row">
@@ -64,6 +59,6 @@ function Calculator() {
       </div>
     </div>
   );
-}
+};
 
 export default Calculator;
