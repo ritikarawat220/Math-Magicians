@@ -23,7 +23,7 @@
 .nav-bar,
 .navbar-container {
   width: 100%;
-  padding: 0;
+  padding: 10px;
 }
 
 .navbar-container {
@@ -32,11 +32,12 @@
 
 .brand-name {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 50px;
 }
 
 .nav-links {
   list-style: none;
+  gap: 20px;
 }
 
 .nav-links li {
@@ -44,7 +45,7 @@
 }
 
 .container {
-  margin-top: 40px;
+  margin-top: 10px;
   justify-content: center;
   align-items: center;
 }

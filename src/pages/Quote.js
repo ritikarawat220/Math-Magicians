@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from 'react';
+import style from './Quote.module.css';
 
 function Quote() {
   const category = 'life';
   const key = 'ojAjYBdnDJ1mTn7+NDqEFA==UUXIGSlNnsU0RurB';
 
   const [data, setData] = useState([]);
-  const [hasError, setHasError] = useState(null);
-  const [isLoading, setIsLoading] = useState(false);
+  // const [hasError, setHasError] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
+
+  const setHasError = null;
 
   async function fetchData() {
     try {
@@ -33,8 +36,8 @@ function Quote() {
 
   return (
     <main>
-      <div>{hasError && <ErrorMessage /> }</div>
-      <div>
+      {/* <div>{hasError && <ErrorMessage /> }</div> */}
+      <div className={style.contentContainer}>
         {isLoading ? (
           <p>Loading...</p>
         ) : (
@@ -45,27 +48,12 @@ function Quote() {
           </ul>
         )}
       </div>
-      :
-      (quote.author ?
-      (
-      <div className="quotes">
-        <p className="quotes__quote">{Quote.quote}</p>
-        <p className="quotes__author">
-          &quot;
-          {Quote.author}
-          &quot;
-        </p>
-      </div>
-      ) : (
-      <div className="quotes"><p>{Quote.quote}</p></div>
-      )
-      )
     </main>
   );
 
-  function ErrorMessage() {
-    return <p>{hasError}</p>;
-  }
+  // function ErrorMessage() {
+  //   return <p>{error}</p>;
+  // }
 }
 
 export default Quote;
