@@ -1,14 +1,28 @@
-.home {
-  position: absolute;
-  top: 30%;
-  bottom: 20%;
-  right: 2%;
-  left: 2%;
-  display: flex;
+
+.contentContainer {
   flex-direction: column;
-  gap: 1.5rem;
+  max-width: 1024px;
+  align-items: flex-start;
 }
 
-.headline {
-  color: #1d1616e0;
+.contentContainer,
+.paragraphs {
+  display: flex;
+}
+
+.paragraphs {
+  width: 100%;
+  flex-direction: row;
+}
+
+.paragraphs p {
+  width: 46%;
+}
+
+p:first-child {
+  margin-right: 2%;
+}
+
+p:last-child {
+  margin-left: 2%;
 }
