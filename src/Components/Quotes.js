@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 function Quotes() {
-  const category = 'life';
+  const category = 'computers';
   const key = 'ojAjYBdnDJ1mTn7+NDqEFA==UUXIGSlNnsU0RurB';
 
   const [data, setData] = useState([]);
