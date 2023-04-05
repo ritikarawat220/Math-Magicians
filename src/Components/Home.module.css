@@ -1,33 +1,22 @@
 
 .contentContainer {
-  flex-direction: column;
-  max-width: 1024px;
-  align-items: flex-start;
-}
-
-.contentContainer,
-.paragraphs {
+  bottom: 0%;
   display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  position: absolute;
+  top: 15%;
+  background: linear-gradient(135deg, hsl(172.21deg 100% 50%), hsl(329.13deg 100% 50%));
 }
 
 h1 {
-  align-items: center;
-  justify-content: center;
+  font-family: cursive;
 }
 
 .paragraphs {
-  width: 100%;
-  flex-direction: row;
-}
-
-.paragraphs p {
-  width: 46%;
-}
-
-p:first-child {
-  margin-right: 2%;
-}
-
-p:last-child {
-  margin-left: 2%;
+  color: black;
+  font-family: cursive;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }

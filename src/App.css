@@ -24,6 +24,7 @@
 .navbar-container {
   width: 100%;
   padding: 10px;
+  background-color: black;
 }
 
 .navbar-container {
@@ -31,8 +32,56 @@
 }
 
 .brand-name {
-  font-weight: bold;
   font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0 0 5px #ff0095, 0 0 15px #ff0095, 0 0 20px #ff0095, 0 0 40px #ff0095, 0 0 60px #f00, 0 0 10px #ff0095, 0 0 98px #f00;
+  color: #fff6a9;
+  font-family: "Sacramento", cursive;
+  text-align: center;
+  animation: blink 12s infinite;
+  -webkit-animation: blink 12s infinite;
+}
+
+@-webkit-keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    text-shadow: 0 0 5px #ff0095, 0 0 15px #ff0095, 0 0 20px #ff0095, 0 0 40px #ff0095, 0 0 60px #f00, 0 0 10px #ff0095, 0 0 98px #f00;
+    color: #ff0059;
+  }
+}
+
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    text-shadow: 0 0 5px #fff, 0 0 15px #ee94c9, 0 0 20px #fff, 0 0 40px #84ff00, 0 0 60px rgb(255, 255, 255), 0 0 10px #e8b2d1, 0 0 98px rgb(0, 72, 255);
+    color: #ff0059;
+  }
 }
 
 .nav-links {
@@ -45,7 +94,6 @@
 }
 
 .container {
-  margin-top: 10px;
   justify-content: center;
   align-items: center;
 }
