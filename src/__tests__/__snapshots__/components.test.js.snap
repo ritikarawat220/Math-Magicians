@@ -1,0 +1,1281 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test components Calculator snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="contentContainer"
+      >
+        <h2>
+          Let's do some calculations!
+        </h2>
+        <div
+          class="calculator-body"
+        >
+          <div
+            class="screen"
+            data-testid="result"
+          >
+            0
+          </div>
+          <div
+            class="keyboard"
+          >
+            <div
+              class="row"
+            >
+              <button
+                class="btn"
+                type="button"
+              >
+                AC
+              </button>
+              <button
+                class="btn"
+                type="button"
+              >
+                +/-
+              </button>
+              <button
+                class="btn"
+                type="button"
+              >
+                %
+              </button>
+              <button
+                class="btn"
+                type="button"
+              >
+                ÷
+              </button>
+            </div>
+            <div
+              class="row"
+            >
+              <button
+                class="btn"
+                type="button"
+              >
+                7
+              </button>
+              <button
+                class="btn"
+                type="button"
+              >
+                8
+              </button>
+              <button
+                class="btn"
+                type="button"
+              >
+                9
+              </button>
+              <button
+                class="btn"
+                type="button"
+              >
+                x
+              </button>
+            </div>
+            <div
+              class="row"
+            >
+              <button
+                class="btn"
+                type="button"
+              >
+                4
+              </button>
+              <button
+                class="btn"
+                type="button"
+              >
+                5
+              </button>
+              <button
+                class="btn"
+                type="button"
+              >
+                6
+              </button>
+              <button
+                class="btn"
+                type="button"
+              >
+                -
+              </button>
+            </div>
+            <div
+              class="row"
+            >
+              <button
+                class="btn"
+                type="button"
+              >
+                1
+              </button>
+              <button
+                class="btn"
+                type="button"
+              >
+                2
+              </button>
+              <button
+                class="btn"
+                type="button"
+              >
+                3
+              </button>
+              <button
+                class="btn"
+                type="button"
+              >
+                +
+              </button>
+            </div>
+            <div
+              class="row last-row"
+            >
+              <button
+                class="btn"
+                type="button"
+              >
+                0
+              </button>
+              <button
+                class="btn"
+                type="button"
+              >
+                .
+              </button>
+              <button
+                class="btn"
+                type="button"
+              >
+                =
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="contentContainer"
+    >
+      <h2>
+        Let's do some calculations!
+      </h2>
+      <div
+        class="calculator-body"
+      >
+        <div
+          class="screen"
+          data-testid="result"
+        >
+          0
+        </div>
+        <div
+          class="keyboard"
+        >
+          <div
+            class="row"
+          >
+            <button
+              class="btn"
+              type="button"
+            >
+              AC
+            </button>
+            <button
+              class="btn"
+              type="button"
+            >
+              +/-
+            </button>
+            <button
+              class="btn"
+              type="button"
+            >
+              %
+            </button>
+            <button
+              class="btn"
+              type="button"
+            >
+              ÷
+            </button>
+          </div>
+          <div
+            class="row"
+          >
+            <button
+              class="btn"
+              type="button"
+            >
+              7
+            </button>
+            <button
+              class="btn"
+              type="button"
+            >
+              8
+            </button>
+            <button
+              class="btn"
+              type="button"
+            >
+              9
+            </button>
+            <button
+              class="btn"
+              type="button"
+            >
+              x
+            </button>
+          </div>
+          <div
+            class="row"
+          >
+            <button
+              class="btn"
+              type="button"
+            >
+              4
+            </button>
+            <button
+              class="btn"
+              type="button"
+            >
+              5
+            </button>
+            <button
+              class="btn"
+              type="button"
+            >
+              6
+            </button>
+            <button
+              class="btn"
+              type="button"
+            >
+              -
+            </button>
+          </div>
+          <div
+            class="row"
+          >
+            <button
+              class="btn"
+              type="button"
+            >
+              1
+            </button>
+            <button
+              class="btn"
+              type="button"
+            >
+              2
+            </button>
+            <button
+              class="btn"
+              type="button"
+            >
+              3
+            </button>
+            <button
+              class="btn"
+              type="button"
+            >
+              +
+            </button>
+          </div>
+          <div
+            class="row last-row"
+          >
+            <button
+              class="btn"
+              type="button"
+            >
+              0
+            </button>
+            <button
+              class="btn"
+              type="button"
+            >
+              .
+            </button>
+            <button
+              class="btn"
+              type="button"
+            >
+              =
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Test components Home snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="contentContainer"
+      >
+        <h1>
+          Welcome to our page!
+        </h1>
+        <div
+          class="paragraphs"
+        >
+          <p>
+            A calculator is a handy tool for quickly performing basic mathematical calculations. It can save time and effort compared to doing calculations by hand and also reduce the potential for errors. Basic calculators can perform basic mathematical operations such as addition, subtraction, multiplication and division. They are widely used in many fields such as everyday life, business, and education. A basic calculator is not just a tool for performing mathematical calculations, it is also a tool for simplifying everyday life. It can help with budgeting and managing finances, assist with shopping and comparing prices, and can even be used for cooking and recipe conversions.
+          </p>
+          <p>
+            It is a device that can be found in nearly every household and office, and it has become a necessary accessory for many people. With the advancement of technology, many calculators now have additional features such as memory and percentage functions, making them even more versatile and useful. It's not just a tool but a companion which can make your day to day calculation easier and accurate.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="contentContainer"
+    >
+      <h1>
+        Welcome to our page!
+      </h1>
+      <div
+        class="paragraphs"
+      >
+        <p>
+          A calculator is a handy tool for quickly performing basic mathematical calculations. It can save time and effort compared to doing calculations by hand and also reduce the potential for errors. Basic calculators can perform basic mathematical operations such as addition, subtraction, multiplication and division. They are widely used in many fields such as everyday life, business, and education. A basic calculator is not just a tool for performing mathematical calculations, it is also a tool for simplifying everyday life. It can help with budgeting and managing finances, assist with shopping and comparing prices, and can even be used for cooking and recipe conversions.
+        </p>
+        <p>
+          It is a device that can be found in nearly every household and office, and it has become a necessary accessory for many people. With the advancement of technology, many calculators now have additional features such as memory and percentage functions, making them even more versatile and useful. It's not just a tool but a companion which can make your day to day calculation easier and accurate.
+        </p>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Test components Quote snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <main>
+        <div
+          class="contentContainer"
+        >
+          <p>
+            Loading...
+          </p>
+        </div>
+      </main>
+    </div>
+  </body>,
+  "container": <div>
+    <main>
+      <div
+        class="contentContainer"
+      >
+        <p>
+          Loading...
+        </p>
+      </div>
+    </main>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Test components Snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <main>
+        <div
+          class="contentContainer"
+        >
+          <p>
+            Loading...
+          </p>
+        </div>
+      </main>
+    </div>
+  </body>,
+  "container": <div>
+    <main>
+      <div
+        class="contentContainer"
+      >
+        <p>
+          Loading...
+        </p>
+      </div>
+    </main>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Test components Snapshot for Calculator 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="contentContainer"
+      >
+        <h2>
+          Let's do some calculations!
+        </h2>
+        <div
+          class="calculator-body"
+        >
+          <div
+            class="screen"
+            data-testid="result"
+          >
+            0
+          </div>
+          <div
+            class="keyboard"
+          >
+            <div
+              class="row"
+            >
+              <button
+                class="btn"
+                type="button"
+              >
+                AC
+              </button>
+              <button
+                class="btn"
+                type="button"
+              >
+                +/-
+              </button>
+              <button
+                class="btn"
+                type="button"
+              >
+                %
+              </button>
+              <button
+                class="btn"
+                type="button"
+              >
+                ÷
+              </button>
+            </div>
+            <div
+              class="row"
+            >
+              <button
+                class="btn"
+                type="button"
+              >
+                7
+              </button>
+              <button
+                class="btn"
+                type="button"
+              >
+                8
+              </button>
+              <button
+                class="btn"
+                type="button"
+              >
+                9
+              </button>
+              <button
+                class="btn"
+                type="button"
+              >
+                x
+              </button>
+            </div>
+            <div
+              class="row"
+            >
+              <button
+                class="btn"
+                type="button"
+              >
+                4
+              </button>
+              <button
+                class="btn"
+                type="button"
+              >
+                5
+              </button>
+              <button
+                class="btn"
+                type="button"
+              >
+                6
+              </button>
+              <button
+                class="btn"
+                type="button"
+              >
+                -
+              </button>
+            </div>
+            <div
+              class="row"
+            >
+              <button
+                class="btn"
+                type="button"
+              >
+                1
+              </button>
+              <button
+                class="btn"
+                type="button"
+              >
+                2
+              </button>
+              <button
+                class="btn"
+                type="button"
+              >
+                3
+              </button>
+              <button
+                class="btn"
+                type="button"
+              >
+                +
+              </button>
+            </div>
+            <div
+              class="row last-row"
+            >
+              <button
+                class="btn"
+                type="button"
+              >
+                0
+              </button>
+              <button
+                class="btn"
+                type="button"
+              >
+                .
+              </button>
+              <button
+                class="btn"
+                type="button"
+              >
+                =
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="contentContainer"
+    >
+      <h2>
+        Let's do some calculations!
+      </h2>
+      <div
+        class="calculator-body"
+      >
+        <div
+          class="screen"
+          data-testid="result"
+        >
+          0
+        </div>
+        <div
+          class="keyboard"
+        >
+          <div
+            class="row"
+          >
+            <button
+              class="btn"
+              type="button"
+            >
+              AC
+            </button>
+            <button
+              class="btn"
+              type="button"
+            >
+              +/-
+            </button>
+            <button
+              class="btn"
+              type="button"
+            >
+              %
+            </button>
+            <button
+              class="btn"
+              type="button"
+            >
+              ÷
+            </button>
+          </div>
+          <div
+            class="row"
+          >
+            <button
+              class="btn"
+              type="button"
+            >
+              7
+            </button>
+            <button
+              class="btn"
+              type="button"
+            >
+              8
+            </button>
+            <button
+              class="btn"
+              type="button"
+            >
+              9
+            </button>
+            <button
+              class="btn"
+              type="button"
+            >
+              x
+            </button>
+          </div>
+          <div
+            class="row"
+          >
+            <button
+              class="btn"
+              type="button"
+            >
+              4
+            </button>
+            <button
+              class="btn"
+              type="button"
+            >
+              5
+            </button>
+            <button
+              class="btn"
+              type="button"
+            >
+              6
+            </button>
+            <button
+              class="btn"
+              type="button"
+            >
+              -
+            </button>
+          </div>
+          <div
+            class="row"
+          >
+            <button
+              class="btn"
+              type="button"
+            >
+              1
+            </button>
+            <button
+              class="btn"
+              type="button"
+            >
+              2
+            </button>
+            <button
+              class="btn"
+              type="button"
+            >
+              3
+            </button>
+            <button
+              class="btn"
+              type="button"
+            >
+              +
+            </button>
+          </div>
+          <div
+            class="row last-row"
+          >
+            <button
+              class="btn"
+              type="button"
+            >
+              0
+            </button>
+            <button
+              class="btn"
+              type="button"
+            >
+              .
+            </button>
+            <button
+              class="btn"
+              type="button"
+            >
+              =
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Test components Snapshot for Home  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="contentContainer"
+      >
+        <h1>
+          Welcome to our page!
+        </h1>
+        <div
+          class="paragraphs"
+        >
+          <p>
+            A calculator is a handy tool for quickly performing basic mathematical calculations. It can save time and effort compared to doing calculations by hand and also reduce the potential for errors. Basic calculators can perform basic mathematical operations such as addition, subtraction, multiplication and division. They are widely used in many fields such as everyday life, business, and education. A basic calculator is not just a tool for performing mathematical calculations, it is also a tool for simplifying everyday life. It can help with budgeting and managing finances, assist with shopping and comparing prices, and can even be used for cooking and recipe conversions.
+          </p>
+          <p>
+            It is a device that can be found in nearly every household and office, and it has become a necessary accessory for many people. With the advancement of technology, many calculators now have additional features such as memory and percentage functions, making them even more versatile and useful. It's not just a tool but a companion which can make your day to day calculation easier and accurate.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="contentContainer"
+    >
+      <h1>
+        Welcome to our page!
+      </h1>
+      <div
+        class="paragraphs"
+      >
+        <p>
+          A calculator is a handy tool for quickly performing basic mathematical calculations. It can save time and effort compared to doing calculations by hand and also reduce the potential for errors. Basic calculators can perform basic mathematical operations such as addition, subtraction, multiplication and division. They are widely used in many fields such as everyday life, business, and education. A basic calculator is not just a tool for performing mathematical calculations, it is also a tool for simplifying everyday life. It can help with budgeting and managing finances, assist with shopping and comparing prices, and can even be used for cooking and recipe conversions.
+        </p>
+        <p>
+          It is a device that can be found in nearly every household and office, and it has become a necessary accessory for many people. With the advancement of technology, many calculators now have additional features such as memory and percentage functions, making them even more versatile and useful. It's not just a tool but a companion which can make your day to day calculation easier and accurate.
+        </p>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Test components Snapshot for Quote 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <main>
+        <div
+          class="contentContainer"
+        >
+          <p>
+            Loading...
+          </p>
+        </div>
+      </main>
+    </div>
+  </body>,
+  "container": <div>
+    <main>
+      <div
+        class="contentContainer"
+      >
+        <p>
+          Loading...
+        </p>
+      </div>
+    </main>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Test components snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="contentContainer"
+      >
+        <h1>
+          Welcome to our page!
+        </h1>
+        <div
+          class="paragraphs"
+        >
+          <p>
+            A calculator is a handy tool for quickly performing basic mathematical calculations. It can save time and effort compared to doing calculations by hand and also reduce the potential for errors. Basic calculators can perform basic mathematical operations such as addition, subtraction, multiplication and division. They are widely used in many fields such as everyday life, business, and education. A basic calculator is not just a tool for performing mathematical calculations, it is also a tool for simplifying everyday life. It can help with budgeting and managing finances, assist with shopping and comparing prices, and can even be used for cooking and recipe conversions.
+          </p>
+          <p>
+            It is a device that can be found in nearly every household and office, and it has become a necessary accessory for many people. With the advancement of technology, many calculators now have additional features such as memory and percentage functions, making them even more versatile and useful. It's not just a tool but a companion which can make your day to day calculation easier and accurate.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="contentContainer"
+    >
+      <h1>
+        Welcome to our page!
+      </h1>
+      <div
+        class="paragraphs"
+      >
+        <p>
+          A calculator is a handy tool for quickly performing basic mathematical calculations. It can save time and effort compared to doing calculations by hand and also reduce the potential for errors. Basic calculators can perform basic mathematical operations such as addition, subtraction, multiplication and division. They are widely used in many fields such as everyday life, business, and education. A basic calculator is not just a tool for performing mathematical calculations, it is also a tool for simplifying everyday life. It can help with budgeting and managing finances, assist with shopping and comparing prices, and can even be used for cooking and recipe conversions.
+        </p>
+        <p>
+          It is a device that can be found in nearly every household and office, and it has become a necessary accessory for many people. With the advancement of technology, many calculators now have additional features such as memory and percentage functions, making them even more versatile and useful. It's not just a tool but a companion which can make your day to day calculation easier and accurate.
+        </p>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

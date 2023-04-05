@@ -26,7 +26,7 @@ const Calculator = () => {
     <div className={style.contentContainer}>
       <h2>Let&apos;s do some calculations!</h2>
       <div className="calculator-body">
-        <div className="screen">
+        <div className="screen" data-testid="result">
           { displayValues(calcObj) }
         </div>
         <div className="keyboard">
