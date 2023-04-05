@@ -6,7 +6,7 @@
   gap: 1.5rem;
   position: absolute;
   top: 15%;
-  background: linear-gradient(135deg, hsl(172.21deg 100% 50%), hsl(329.13deg 100% 50%));
+  background: linear-gradient(135deg, #e6dcff, #ff0059);
 }
 
 h1 {

@@ -5,6 +5,9 @@
   position: absolute;
   right: 10%;
   top: 40%;
+  font-family: monospace;
+  border: 2px solid black;
+  background: linear-gradient(135deg, #e6dcff, #ff0059);
 }
 
 li {
