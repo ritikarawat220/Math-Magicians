@@ -1,0 +1,22 @@
+
+.contentContainer {
+  bottom: 0%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  position: absolute;
+  top: 15%;
+  background: linear-gradient(135deg, #e6dcff, #ff0059);
+}
+
+h1 {
+  font-family: cursive;
+}
+
+.paragraphs {
+  color: black;
+  font-family: cursive;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}

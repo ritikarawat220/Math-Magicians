@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from 'react';
+import style from './Quote.module.css';
 
-function Quotes() {
+function Quote() {
   const category = 'life';
   const key = 'ojAjYBdnDJ1mTn7+NDqEFA==UUXIGSlNnsU0RurB';
 
   const [data, setData] = useState([]);
-  const [hasError, setHasError] = useState(null);
-  const [isLoading, setIsLoading] = useState(false);
+  // const [hasError, setHasError] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
+
+  const setHasError = null;
 
   async function fetchData() {
     try {
@@ -33,8 +36,7 @@ function Quotes() {
 
   return (
     <main>
-      <div>{hasError && <ErrorMessage /> }</div>
-      <div>
+      <div className={style.contentContainer}>
         {isLoading ? (
           <p>Loading...</p>
         ) : (
@@ -47,10 +49,6 @@ function Quotes() {
       </div>
     </main>
   );
-
-  function ErrorMessage() {
-    return <p>{hasError}</p>;
-  }
 }
 
-export default Quotes;
+export default Quote;
