@@ -36,7 +36,6 @@ function Quote() {
 
   return (
     <main>
-      {/* <div>{hasError && <ErrorMessage /> }</div> */}
       <div className={style.contentContainer}>
         {isLoading ? (
           <p>Loading...</p>
@@ -50,10 +49,6 @@ function Quote() {
       </div>
     </main>
   );
-
-  // function ErrorMessage() {
-  //   return <p>{error}</p>;
-  // }
 }
 
 export default Quote;
