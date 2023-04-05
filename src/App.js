@@ -5,7 +5,7 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
-import CalculatorPage from './pages/CalculatorPage';
+import Calculator from './Components/calculator';
 import Home from './pages/Home';
 import Navbar from './Components/Navbar';
 import Quote from './pages/Quote';
@@ -16,7 +16,7 @@ const App = () => (
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/calculator" element={<CalculatorPage />} />
+        <Route path="/calculator" element={<Calculator />} />
         <Route path="/quote" element={<Quote />} />
       </Routes>
     </div>
