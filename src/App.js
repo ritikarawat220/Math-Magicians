@@ -6,9 +6,9 @@ import {
   Route,
 } from 'react-router-dom';
 import Calculator from './Components/calculator';
-import Home from './pages/Home';
+import Home from './Components/Home';
 import Navbar from './Components/Navbar';
-import Quote from './pages/Quote';
+import Quote from './Components/Quote';
 
 const App = () => (
   <Router>
