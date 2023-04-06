@@ -56,4 +56,72 @@ describe('calculate', () => {
       operation: null,
     });
   });
+
+  test('It substracts the operation', () => {
+    Object.assign(operation, calculate(operation, 'AC'));
+    Object.assign(operation, calculate(operation, '8'));
+    Object.assign(operation, calculate(operation, '-'));
+    Object.assign(operation, calculate(operation, '5'));
+    expect(calculate(operation, '=')).toEqual({
+      next: null,
+      operation: null,
+      total: '3',
+    });
   });
+
+  test('It multiply the operation', () => {
+    Object.assign(operation, calculate(operation, 'AC'));
+    Object.assign(operation, calculate(operation, '8'));
+    Object.assign(operation, calculate(operation, 'x'));
+    Object.assign(operation, calculate(operation, '5'));
+    expect(calculate(operation, '=')).toEqual({
+      next: null,
+      operation: null,
+      total: '40',
+    });
+  });
+
+  test('It does the multiplication operation', () => {
+    Object.assign(operation, calculate(operation, 'AC'));
+    Object.assign(operation, calculate(operation, '8'));
+    Object.assign(operation, calculate(operation, '÷'));
+    Object.assign(operation, calculate(operation, '2'));
+    expect(calculate(operation, '=')).toEqual({
+      next: null,
+      operation: null,
+      total: '4',
+    });
+  });
+
+  test('It does the modulus', () => {
+    Object.assign(operation, calculate(operation, 'AC'));
+    Object.assign(operation, calculate(operation, '8'));
+    Object.assign(operation, calculate(operation, '%'));
+    Object.assign(operation, calculate(operation, '2'));
+    expect(calculate(operation, '=')).toEqual({
+      next: null,
+      operation: null,
+      total: '0',
+    });
+  });
+
+  test('It does the minus value', () => {
+    Object.assign(operation, calculate(operation, 'AC'));
+    Object.assign(operation, calculate(operation, '8'));
+    expect(calculate(operation, '+/-')).toEqual({
+      next: '-8',
+      operation: null,
+      total: null,
+    });
+  });
+
+  test('It does the decimal values', () => {
+    Object.assign(operation, calculate(operation, 'AC'));
+    Object.assign(operation, calculate(operation, '8'));
+    expect(calculate(operation, '.')).toEqual({
+      next: '8.',
+      operation: null,
+      total: null,
+    });
+  });
+});
