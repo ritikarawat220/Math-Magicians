@@ -80,6 +80,10 @@ HTML, CSS, NodeJS v18, ReactJS
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Live Demo <a name="live-demo"></a>
+
+ [Live DemO](https://math-magicians-vk6q.onrender.com/)
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
