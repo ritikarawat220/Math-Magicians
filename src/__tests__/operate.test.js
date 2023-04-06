@@ -12,7 +12,7 @@ describe('Test the operate file', () => {
   test('It subtracts between two numbers', () => {
     expect(operate(15, 5, '-')).toBe('10');
   });
-  
+
   test('It divides an integers', () => {
     expect(operate(10, 5, '÷')).toBe('2');
   });
